@@ -1,4 +1,4 @@
 module.exports = {
-  "dbURL": "mongodb+srv://tzookyb:562charlesSt@cluster0.5tdbt.mongodb.net/?retryWrites=true&w=majority",
-  dbName: 'beatbox_dev'
+  "dbURL": "mongodb+srv://matan:JBkz47k2qc4lQgMC@cluster0.jftmf.mongodb.net/?retryWrites=true&w=majority",
+  dbName: 'box_db'
 }
