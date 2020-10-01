@@ -1,0 +1,12 @@
+.notification-box {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    color:#fff;
+    width: 200px;
+    bottom: 120px;
+    right: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 1px 5px 0 rgba(255, 255, 255, 0.3), 0 1px 3px 1px rgba(189, 191, 192, 0.149);
+}

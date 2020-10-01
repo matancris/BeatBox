@@ -1,0 +1,36 @@
+// Setup
+@import "./setup/variables";
+@import "./setup/functions";
+@import "./setup/mixins";
+@import "./setup/typography";
+@import "./setup/animations";
+
+// Basics
+@import "./basics/helpers";
+@import "./basics/base";
+@import "./basics/layout";
+
+// Components
+
+@import "./componenets/header";
+@import "./componenets/footer";
+@import "./componenets/boxList";
+@import "./componenets/boxPreview";
+@import "./componenets/boxInfo";
+@import "./componenets/songList";
+@import "./componenets/songPick";
+@import "./componenets/songPreview";
+@import "./componenets/genresFilter";
+@import "./componenets/login";
+@import "./componenets/boxFilter";
+@import "./componenets/userDetails";
+@import "./componenets/boxActive";
+@import "./componenets/boxWall";
+@import "./componenets/chat";
+
+// Views
+@import "./views/home";
+@import "./views/boxApp";
+@import "./views/boxDetails";
+@import "./views/boxAdd";
+@import "./views/player";
