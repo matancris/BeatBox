@@ -1,0 +1,20 @@
+.user-add-form {
+  .user-add-thumbnail {
+    height: 100%;
+    text-align: center;
+    img{
+        object-fit: cover;
+        height: 100px;
+        width: 100px;
+        border-radius: 999px;
+    }
+  }
+  .inputs {
+    input {
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding: 5px;
+      outline: none;
+    }
+  }
+}

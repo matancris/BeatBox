@@ -1,0 +1,69 @@
+.song-list {
+    background-color: $clr1;
+    min-height: rem(300px);
+    position: relative;
+    min-height: 45vh;
+    padding-bottom: 80px;
+
+    ul {
+        overflow-y: visible;
+        width: 100%;
+        height: 100%;
+
+        li {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 5px;
+
+            h3 {
+                max-height: rem(40px);
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #ccc;
+            }
+        }
+    }
+}
+
+.remove-song-drag {
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+    left: 0;
+    padding-inline-start: 300px;
+    height: 60px;
+    visibility: hidden;
+    background-color: $clr1;
+    transition: 0.5s;
+    &.opened {
+        visibility: visible;
+    }
+    svg {
+        font-size: 60px;
+        color: white;
+        margin: 0 auto;
+    }
+    &:hover {
+        .bin {
+            animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+            transition: 0.2s;
+            animation: wobble-ver-right 0.5s;
+        }
+        svg {
+            color: red;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .song-list {
+        padding-bottom: 15vh; // same as the height of the player - 1
+    }
+    .remove-song-drag {
+        padding-inline-start: initial;
+        bottom: 15.5vh;
+        svg {
+            font-size: 35px;
+        }
+    }
+}
