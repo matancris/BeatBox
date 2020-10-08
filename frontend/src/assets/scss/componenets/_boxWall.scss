@@ -4,10 +4,10 @@
   position: fixed;
   border-right: 2px solid rgb(28, 30, 33);
 
-  > *{
+  >* {
     width: 280px;
   }
-  
+
 
   .chat-title {
     text-align: center;
@@ -23,16 +23,16 @@
     position: fixed;
     bottom: 90px;
     font-size: 1rem;
-    
+
   }
 
   .msgs {
-    height: rem(600px);
+    height: 65vh;
     overflow-y: scroll;
     overflow-x: hidden;
-    
 
-    .msg-text{
+
+    .msg-text {
       color: #fff;
     }
 
@@ -47,11 +47,11 @@
     border-right: initial;
     width: 75vw;
 
-    > * {
+    >* {
       width: 75vw;
     }
 
-    .msgs{
+    .msgs {
       height: 48vh;
     }
 
