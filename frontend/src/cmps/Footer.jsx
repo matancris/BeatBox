@@ -9,7 +9,7 @@ import imgMatan from '../assets/img/matan.jpg';
 export function Footer() {
     return (
         <footer className="footer flex column align-center justify-center">
-            <div className="container flex justify-center">
+            <div className="container flex justify-center flex-wrap">
                 <div className="developer flex align-center ">
                     <img alt="Idan" src={imgIdan} />
                     <p>Idan Benjamin</p>
