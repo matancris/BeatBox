@@ -13,7 +13,7 @@ const io = require('socket.io')(http);
 
 // Express App Config
 app.use(cookieParser())
-app.use(bodyParser.json());
+app.use(express.json());
 
 // HEROKU
 app.use(express.static('public'));
