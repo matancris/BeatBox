@@ -1,5 +1,5 @@
 
 module.exports = {
-  "dbURL": DB_URL,
+  "dbURL": process.env.DB_URL,
   dbName : "box_db"
 }
